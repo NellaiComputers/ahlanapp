@@ -12,7 +12,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="CodeYourFuture's Software Development Syllabus"
+      description="Learn Coding from Ahlan App"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">

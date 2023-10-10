@@ -1,10 +1,10 @@
 module.exports = {
-  title: "CodeYourFuture Syllabus",
-  url: "https://syllabus.codeyourfuture.io/",
+  title: "Learn Code - Ahlan Web App",
+  url: "https://learn.ahlan.app/",
   baseUrl: "/",
   favicon: "img/favicon.png",
-  organizationName: "codeyourfuture",
-  projectName: "Syllabus",
+  organizationName: "Ahlan App",
+  projectName: "LearnCode",
   onBrokenLinks: "throw",
   plugins: [require.resolve("docusaurus-lunr-search")],
   presets: [
@@ -20,7 +20,7 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         googleAnalytics: {
-          trackingID: "UA-159979458-2",
+          trackingID: "G-2ZWZCP41GN",
           anonymizeIP: true,
         },
       },
@@ -37,10 +37,11 @@ module.exports = {
   themeConfig: {
     navbar: {
       hideOnScroll: true,
-      logo: {
-        alt: "CodeYourFuture Logo",
-        src: "img/logo.png",
-      },
+      title: 'Learn @hlan',
+      // logo: {
+      //   alt: "CodeYourFuture Logo",
+      //   src: "img/logo.png",
+      // },
       items: [
         {
           to: "Overview",
@@ -244,7 +245,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CodeYourFuture`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nellai Computers`,
     },
   },
 };
