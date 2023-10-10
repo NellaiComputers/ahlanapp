@@ -2,7 +2,7 @@ module.exports = {
   title: "Learn Code - Ahlan Web App",
   url: "https://learn.ahlan.app/",
   baseUrl: "/",
-  favicon: "img/favicon.png",
+  favicon: "img/favicon.ico",
   organizationName: "Ahlan App",
   projectName: "LearnCode",
   onBrokenLinks: "throw",
