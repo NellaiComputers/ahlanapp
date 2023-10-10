@@ -6,7 +6,12 @@ module.exports = {
   organizationName: "Ahlan App",
   projectName: "LearnCode",
   onBrokenLinks: "throw",
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  plugins: [[require.resolve("docusaurus-lunr-search")],[
+    '@docusaurus/plugin-google-gtag',
+    {
+      trackingID: 'G-2ZWZCP41GN',
+      anonymizeIP: true,
+    },]],
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -18,10 +23,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "G-2ZWZCP41GN",
-          anonymizeIP: true,
         },
       },
     ],
