@@ -5,13 +5,17 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "Ahlan App",
   projectName: "LearnCode",
-  onBrokenLinks: "throw",
-  plugins: [[require.resolve("docusaurus-lunr-search")],[
+  plugins: [
+    [
     '@docusaurus/plugin-google-gtag',
     {
       trackingID: 'G-2ZWZCP41GN',
       anonymizeIP: true,
-    },]],
+    },
+  ],
+  [ require.resolve('docusaurus-lunr-search'), {
+    languages: ['en', 'de'] // language codes
+  }]],
   presets: [
     [
       "@docusaurus/preset-classic",
